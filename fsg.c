@@ -1,5 +1,5 @@
 /*
-	File splitter gatherer tool 1.0.1 2019-02-17 by Santtu Nyman.
+	File splitter gatherer tool 1.0.1 2019-02-07 by Santtu Nyman.
 	git repository https://github.com/Santtu-Nyman/fsg
 
 	Description
@@ -8,7 +8,7 @@
 		Instructions how to use the program are contained in the program and printed out with -h or --help parameter.
 
 	Version history
-		Version 1.0.2 2019-02-17
+		Version 1.0.2 2019-02-07
 			Added macro to remove silly Microsoft specific warnings.
 		version 1.0.0 2018-12-31
 			First version of the program.
