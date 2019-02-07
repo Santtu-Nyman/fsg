@@ -1,5 +1,6 @@
 /*
-	File splitter gatherer tool version 1.0.0 by Santtu Nyman.
+	File splitter gatherer tool 1.0.1 2019-02-17 by Santtu Nyman.
+	git repository https://github.com/Santtu-Nyman/fsg
 
 	Description
 		Simple command line tool for splitting large files to smaller fragment files
@@ -7,9 +8,15 @@
 		Instructions how to use the program are contained in the program and printed out with -h or --help parameter.
 
 	Version history
+		Version 1.0.2 2019-02-17
+			Added macro to remove silly Microsoft specific warnings.
 		version 1.0.0 2018-12-31
 			First version of the program.
 */
+
+#ifdef _WIN32
+#define _CRT_SECURE_NO_WARNINGS
+#endif
 
 #include <stddef.h>
 #include <stdint.h>
